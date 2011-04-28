@@ -56,11 +56,11 @@
                           position:   'absolute',
                           opacity:     1.0,
                           left:       position.left + width - 1,
-                          top:        position.top + 4 + "px",
-                          height:     "10px",
+                          top:        position.top + 5 + "px",
+                          height:     "15px",
                           width:      8 + "px",
                           margin:     0 + "px",
-                          marginLeft: -8 * (++i) -11 + "px"
+                          marginLeft: -7 * (++i) -11 + "px"
                         }
             if($.browser.safari){
               properties.marginTop = 3 + "px";
